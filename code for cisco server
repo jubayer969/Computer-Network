@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #007bff;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Skills */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.03);
+}
+
+/* Contact */
+.contact p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+/* Responsive */
+@media(max-width: 600px){
+    header h1 {
+        font-size: 24px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Jubayer H</h1>
+    <p>Web Developer | Android Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a beginner developer learning Web Development, Android Apps, and Networking.
+        I enjoy building useful apps like VPN and tracking systems.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS</li>
+        <li>Java / Kotlin</li>
+        <li>Android Development</li>
+        <li>Networking Basics</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>VPN App</h3>
+        <p>A simple Android VPN app built using Kotlin.</p>
+    </div>
+
+    <div class="project">
+        <h3>Skill Tracker Website</h3>
+        <p>A local web app to track learning progress.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>Phone: +880XXXXXXXXX</p>
+</section>
+
+<footer>
+    <p>© 2026 Jubayer H. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
