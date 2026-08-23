@@ -34,3 +34,12 @@ exit
 ip route 192.168.20.0 255.255.255.0 192.168.30.2
 exit 
 
+
+
+Rip configration for the router
+Router(config#) router rip
+Router(config-router)# verson 2
+Router(config-router)# network 192.168.10.0
+Router(config-router)# netwok 20.20.20.0
+Router(config-router)# netwok 10.10.10.0
+
